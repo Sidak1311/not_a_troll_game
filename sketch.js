@@ -1,3 +1,4 @@
+//IF YOU ARE READING THIS BEFORE THE GAME YOU SPOILED IT i mean the game
 var ball,score,gameState
 
 function setup() {
