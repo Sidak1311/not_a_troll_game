@@ -18,7 +18,7 @@ function draw() {
   if(mousePressedOver(ball)){
     ball.x = random(0,750)
     ball.y = random(0,750)
-    score += 1000
+    score += 5
     gameState = 'started'
   }
   if(score > 9){
