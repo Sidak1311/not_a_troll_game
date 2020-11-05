@@ -18,7 +18,7 @@ function draw() {
   if(mousePressedOver(ball)){
     ball.x = random(0,750)
     ball.y = random(0,750)
-    score += 5
+    score += 1000
     gameState = 'started'
   }
   if(score > 9){
@@ -40,8 +40,10 @@ function draw() {
     text("I'm out",100,140)
   }
   if(score > 100){
-    text("FINE YOU WIN. here is a text for you",100,155)
-    text("YOU WIN -_-",400,400)
+    text("LEAVE THERE BE NO WAY YOU WIN UNLESS YOU CHEAT SOMEHOW",100,155)
+  }
+    if(score > 1000){
+    text("wow you either cheated or have some serious DETERMINATION. undertale refrence",400,455)
   }
   drawSprites()
   text("Score: "+score,400,50)
